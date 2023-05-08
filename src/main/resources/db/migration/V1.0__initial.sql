@@ -4,5 +4,6 @@ CREATE TABLE family_doctor(
     last_name VARCHAR NOT NULL,
     email VARCHAR,
     phone VARCHAR NOT NULL,
-    address VARCHAR NOT NULL
-)
+    address VARCHAR NOT NULL,
+    password VARCHAR NOT NULL
+);
